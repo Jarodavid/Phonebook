@@ -1,0 +1,11 @@
+###
+POST http://localhost:3000/phonebooks
+Content-Type: application/json
+
+{
+    "name" : "test",
+    "contactNumber" : "test"
+}
+###
+
+DELETE http://localhost:3000/phonebooks/5fc8cbea23bbba03b405e05e
