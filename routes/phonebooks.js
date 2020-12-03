@@ -35,7 +35,7 @@ router.post('/', async(req,res) => {
 
 
 // Updating one
-router.patch('/:id',getPhonebook,async(req,res) => {
+router.put('/:id',getPhonebook,async(req,res) => {
     if(req.body.name != null){
         res.phonebook.name = req.body.name
     }

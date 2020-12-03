@@ -1,11 +1,24 @@
+GET http://localhost:3000/phonebooks
+###
+
+
+
 ###
 POST http://localhost:3000/phonebooks
 Content-Type: application/json
 
 {
-    "name" : "test",
-    "contactNumber" : "test"
+    "name" : "John Doe",
+    "contactNumber" : "091234356789"
 }
 ###
 
-DELETE http://localhost:3000/phonebooks/5fc8cbea23bbba03b405e05e
+DELETE http://localhost:3000/phonebooks/5fc8cf4c23bbba03b405e05f
+###
+PUT http://localhost:3000/phonebooks/5fc8d04023bbba03b405e060
+Content-Type: application/json
+
+{
+    "name" : "Griffin Laurence",
+    "contactNumber": "09x"
+}
